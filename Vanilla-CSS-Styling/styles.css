@@ -38,6 +38,7 @@ body{
     height: 64px;
     background-color: var(--dark-blue);
     border-bottom: 1px solid gray;
+    padding-top: 16px;
 }
 
 h1, h2, h3{
@@ -86,17 +87,27 @@ a {
     align-items: center;
 }
 
+.hero{
+    background-color: var(--dark-blue);
+    padding: 40px 20px;
+}
 
+
+.hero-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 img{
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 16px;
 }
 
 .hero-flex{
-    
-    min-height: 92vh;
+   
     display: flex;
     justify-content: center;
     padding: 20px;
