@@ -14,7 +14,7 @@
 
 html{
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 
-.hero-description{
+.hero-wording{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +111,14 @@ img{
     display: flex;
     justify-content: center;
     padding: 20px;
+    gap: 2rem;
 }
+
+.hero-wording p {
+    color: yellow;
+    text-align: left;
+}
+
 
 h1{
     font-size: 50px;
@@ -139,9 +146,12 @@ h1{
 
 .service{
     background-color: var(--blue-shade);
+    padding: 40px 20px;
+    
 }
-.service h2, p{
+.service-heading{
     text-align: center;
+    
 }
 
 
